@@ -1,11 +1,11 @@
 //Bài 1
-// const arr1 = [1, 'a', 5, '2', true]; //1, 5
-// const result = arr1.filter(isNumber);
+const arr1 = [1, 'a', 5, '2', true]; //1, 5
+const result = arr1.filter(isNumber);
 
-// function isNumber(value)
-//     { return typeof value === `number`; }
+function isNumber(value)
+    { return typeof value === `number`; }
 
-// console.log(result);
+console.log(result);
 
 //Bài 2
 const products = [
