@@ -20,14 +20,13 @@ const products2 = products.map((item, index) => {
 });
 
 let total = 0;
-let amount = 0;
 
-products.forEach(product => {let amount = product.price * product.quantity;})
+products.forEach(product => {amount = product.price * product.quantity;})
 
 total += amount;
 
 console.log(products2);
-console.log(`${total}$`);
+console.log(`Tổng hóa đơn => ${total}$`);
 
 //Bài 3
 let students = [
@@ -39,6 +38,8 @@ let students = [
 let highestScore = 0;
 let highestScoreName = '';
 
-students.forEach(student => {if (student.score > highestScore) {highestScore = student.score; highestScoreName = student.name; }});
+students.forEach(student => {if (student.score > highestScore) 
+	{highestScore = student.score; highestScoreName = student.name;}
+});
 
 console.log(highestScoreName);
