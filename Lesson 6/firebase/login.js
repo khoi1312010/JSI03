@@ -1,5 +1,4 @@
 
-
 (function() {
     console.log('Start file login with firebase');
     var config = {
